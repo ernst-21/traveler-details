@@ -37,6 +37,7 @@ const QuestionContainer = () => {
       <CardComponent className="card-container">
         <MobileControlButton
           number={2}
+          steps={true}
           clickPrev={() => setComponentIndex(1)}
         />
         <CreateTripTitle/>
@@ -50,6 +51,7 @@ const QuestionContainer = () => {
       <CardComponent className="card-container">
         <MobileControlButton
           number={3}
+          steps={true}
           clickPrev={() => setComponentIndex(2)}
         />
         <CreateTripTitle/>
