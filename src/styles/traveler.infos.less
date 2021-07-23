@@ -1,0 +1,76 @@
+.traveler-infos_container {
+  display: block;
+  place-items: center;
+
+  .img-holder {
+    display: block;
+    .img-container {
+      display: grid;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      background-image: url(https://res.cloudinary.com/ernst1/image/upload/b_rgb:000000,o_64/v1625692154/havana_etaszq.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 440px;
+
+      .img-title {
+        font-weight: 700;
+        color: #fff;
+        margin-top: 8rem;
+        font-size: 2.7rem;
+      }
+    }
+  }
+
+  .question-container {
+    display: grid;
+    place-items: center;
+    .card-container {
+      display: block;
+      position: relative;
+      width: 60%;
+      place-items: center;
+      z-index: 9;
+      margin-top: -5rem;
+      margin-bottom: 5rem;
+
+      .create-trip {
+        display: none;
+      }
+
+      .mobile-controls {
+        display: none;
+        .step_text {
+          margin-top: 10px;
+        }
+      }
+
+      .card-subtitle {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    .img-holder {
+      display: none;
+    }
+    .question-container {
+      .card-container {
+        display: block;
+        place-items: center;
+        margin: 0;
+        z-index: auto;
+        width: 100%;
+
+        .create-trip {
+          display: block;
+        }
+
+        .mobile-controls {
+          display: block;
+        }
+      }
+    }
+  }
+}

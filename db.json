@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "stage": {
+        "stage": "I am starting planning my trip"
+      },
+      "travelInfo": {
+        "with": "Alone",
+        "knowDate": "Yes",
+        "range": [
+          "2021-07-29T15:10:16.921Z",
+          "2021-07-30T15:10:16.921Z"
+        ],
+        "adults": 1,
+        "young": 0,
+        "children": 0,
+        "babies": 0
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Classic"
+        ],
+        "accommodationType": [
+          "3-star Hotels"
+        ],
+        "accompaniment": "Guide",
+        "budget": 345
+      },
+      "personalData": {
+        "email": "test3@test.com",
+        "password": "P4ssword*",
+        "title": "Mr.",
+        "name": "Walter",
+        "lastName": "Guisandes",
+        "country": "USA",
+        "prefix": "87",
+        "phone": "455665",
+        "birthday": "2021-07-06T15:10:54.832Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": {
+        "rating": 3
+      },
+      "id": 4
+    },
+    {
+      "stage": {
+        "stage": "I am starting planning my trip"
+      },
+      "travelInfo": {
+        "with": "Alone",
+        "knowDate": "No",
+        "estimatedDate": "2021-12-23T17:22:34.100Z",
+        "duration": "3 weeks",
+        "adults": 1,
+        "young": 0,
+        "children": 0,
+        "babies": 0
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Alternative"
+        ],
+        "accommodationType": [
+          "3-star Hotels"
+        ],
+        "accompaniment": "Guide",
+        "budget": 32456
+      },
+      "personalData": {
+        "email": "test10@test.com",
+        "password": "P4ssword*",
+        "title": "Mr.",
+        "name": "Francis",
+        "lastName": "Drake",
+        "country": "USA",
+        "prefix": "87",
+        "phone": "345678",
+        "birthday": "2021-07-22T16:39:45.318Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": {
+        "rating": 5
+      },
+      "id": 5
+    },
+    {
+      "stage": {
+        "stage": "I am starting planning my trip"
+      },
+      "travelInfo": {
+        "with": "Family",
+        "knowDate": "Yes",
+        "adults": 4,
+        "young": 0,
+        "children": 0,
+        "babies": 0,
+        "range": [
+          "2021-07-24T16:50:49.756Z",
+          "2021-07-29T16:50:49.756Z"
+        ]
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Charm & Luxury"
+        ],
+        "accommodationType": [
+          "3-star Hotels"
+        ],
+        "description": "Fun and drinks",
+        "accompaniment": "No guide, except for some visits",
+        "budget": 1500
+      },
+      "personalData": {
+        "email": "test5@test.com",
+        "password": "P4ssword*",
+        "title": "Mr.",
+        "name": "Stefan",
+        "lastName": "Schmidt",
+        "country": "Germany",
+        "prefix": "87",
+        "phone": "2345678",
+        "birthday": "1976-05-20T16:52:02.738Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": {
+        "rating": 4
+      },
+      "id": 6
+    },
+    {
+      "stage": {
+        "stage": "I want to book shortly"
+      },
+      "travelInfo": {
+        "with": "Couple",
+        "knowDate": "No",
+        "motive": "Honeymoon",
+        "estimatedDate": "2021-12-23T18:00:10.567Z",
+        "duration": "2 weeks",
+        "adults": 2,
+        "young": 0,
+        "children": 0,
+        "babies": 0
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Classic"
+        ],
+        "accommodationType": [
+          "5-star Hotels"
+        ],
+        "description": "Romantic",
+        "accompaniment": "Driver-Guide",
+        "budget": 2500
+      },
+      "personalData": {
+        "email": "test32@test.com",
+        "password": "P4ssword*",
+        "title": "Mr.",
+        "name": "Michael",
+        "lastName": "Werner",
+        "country": "USA",
+        "prefix": "87",
+        "phone": "34567845678",
+        "birthday": "1964-08-16T18:01:28.768Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": {
+        "rating": 5
+      },
+      "id": 7
+    },
+    {
+      "stage": {
+        "stage": "I want to book shortly"
+      },
+      "travelInfo": {
+        "with": "Alone",
+        "knowDate": "Yes",
+        "range": [
+          "2021-07-23T17:26:26.495Z",
+          "2021-08-20T17:26:26.495Z"
+        ],
+        "adults": 1,
+        "young": 0,
+        "children": 0,
+        "babies": 0
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Charm & Luxury"
+        ],
+        "accommodationType": [
+          "4-start Hotels"
+        ],
+        "description": "Wow",
+        "accompaniment": "Driver-Guide",
+        "budget": 3000
+      },
+      "personalData": {
+        "email": "john@test.com",
+        "password": "P4ssword*",
+        "title": "Mr.",
+        "name": "John",
+        "lastName": "Maximus",
+        "country": "USA",
+        "prefix": "86",
+        "phone": "12345",
+        "birthday": "1966-11-12T18:27:15.012Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": 5,
+      "id": 8
+    }
+  ]
+}

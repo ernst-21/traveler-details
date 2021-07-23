@@ -1,0 +1,34 @@
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.one-btn {
+  float: right;
+}
+
+.next-btn {
+  border-radius: 6px;
+}
+
+.prev-btn_mobile {
+  float: left;
+}
+
+.prev-btn, .prev-btn_mobile {
+  color: #12B886
+}
+
+@media (max-width: 700px) {
+  .one-btn {
+    width: 100%;
+  }
+  .next-btn {
+    width: 100%;
+  }
+  .prev-btn {
+    display: none;
+  }
+}
+
