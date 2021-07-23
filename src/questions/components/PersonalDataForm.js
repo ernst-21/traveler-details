@@ -14,15 +14,18 @@ const prefixSelector = (
         width: 70
       }}
     >
+      <Option value="1">+1</Option>
       <Option value="86">+86</Option>
-      <Option value="87">+87</Option>
+      <Option value="33">+33</Option>
+      <Option value="49">+49</Option>
+      <Option value="39">+39</Option>
     </Select>
   </Form.Item>
 );
 
 const PersonalDataForm = () => {
   return (
-    <Space direction='vertical'>
+    <Space className="personal-data" direction='vertical'>
       <Form.Item
         label={<p><strong>Title</strong></p>}
         name='title'

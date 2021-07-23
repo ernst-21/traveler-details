@@ -222,6 +222,49 @@
       },
       "rating": 5,
       "id": 8
+    },
+    {
+      "stage": {
+        "stage": "I am starting planning my trip"
+      },
+      "travelInfo": {
+        "with": "Family",
+        "knowDate": "Yes",
+        "adults": 4,
+        "young": 0,
+        "children": 0,
+        "babies": 0,
+        "range": [
+          "2021-07-23T19:44:47.830Z",
+          "2021-07-30T19:44:47.830Z"
+        ]
+      },
+      "travelIdeas": {
+        "travelType": [
+          "Classic"
+        ],
+        "accommodationType": [
+          "3-star Hotels"
+        ],
+        "accompaniment": "Guide",
+        "budget": 2500
+      },
+      "personalData": {
+        "email": "test@test.com",
+        "password": "P4ssword#",
+        "title": "Mr.",
+        "name": "Calvin",
+        "lastName": "Klein",
+        "country": "Italy",
+        "prefix": "39",
+        "phone": "345678",
+        "birthday": "1985-04-30T20:46:49.018Z",
+        "terms": [
+          "read"
+        ]
+      },
+      "rating": 4,
+      "id": 9
     }
   ]
 }
