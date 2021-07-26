@@ -107,6 +107,7 @@ const PersonalDataForm = () => {
             ]}
           >
             <Input
+              type='number'
               size='large'
               addonBefore={prefixSelector}
               placeholder='5647 342 456'

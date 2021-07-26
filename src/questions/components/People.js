@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { Col, InputNumber, Row, Typography, Form } from 'antd';
+import { Col, Input, Row, Typography, Form } from 'antd';
 import { people } from '../data';
 
 const { Text } = Typography;
@@ -28,7 +28,8 @@ const People = () => {
               name={person.name}
               initialValue={person.min}
             >
-              <InputNumber
+              <Input
+                type='number'
                 className="input-people"
                 size="large"
                 min={person.min}

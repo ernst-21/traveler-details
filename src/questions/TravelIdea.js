@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Space, Input, Typography, InputNumber, Divider, Form } from 'antd';
+import { Space, Input, Typography, Divider, Form } from 'antd';
 import CheckboxBlock from './components/CheckboxBlock';
 import RadioBlock from './components/RadioBlock';
 import { projectIdea } from './data';
@@ -84,14 +84,12 @@ const TravelIdea = ({ setComponentIndex }) => {
           <Form.Item
             name='budget'
           >
-            <InputNumber
+            <Input
+              type='number'
               style={{marginTop: '1rem', width: 90}}
               min={0}
+              placeholder='$'
               size='large'
-              formatter={(value) =>
-                `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-              }
-              parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
             />
           </Form.Item>
           <Text type="secondary">per person, flight tickets not included</Text>
