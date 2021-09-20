@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Space, Input, Typography, Divider, Form } from 'antd';
+import { Space, Input, InputNumber, Typography, Divider, Form } from 'antd';
 import CheckboxBlock from './components/CheckboxBlock';
 import RadioBlock from './components/RadioBlock';
 import { projectIdea } from './data';
@@ -84,7 +84,7 @@ const TravelIdea = ({ setComponentIndex }) => {
           <Form.Item
             name='budget'
           >
-            <Input
+            <InputNumber
               type='number'
               style={{marginTop: '1rem', width: 90}}
               min={0}

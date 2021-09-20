@@ -91,6 +91,7 @@ const LastStep = ({ setComponentIndex }) => {
               ]}
             >
               <Input
+                className='personal-email'
                 size="large"
                 placeholder="youremail@example.com"
                 type="email"
@@ -103,7 +104,7 @@ const LastStep = ({ setComponentIndex }) => {
               <Spin />
             ) : (
               <ButtonComponent
-                className="next-btn"
+                className="next-btn ok-email-btn"
                 size="large"
                 type="primary"
                 onClick={emailSubmit}

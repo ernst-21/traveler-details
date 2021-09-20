@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { Col, Input, Row, Typography, Form } from 'antd';
+import { Col, InputNumber, Row, Typography, Form } from 'antd';
 import { people } from '../data';
 
 const { Text } = Typography;
@@ -10,7 +10,7 @@ const People = () => {
       <Row gutter={[16, 16]}>
         {people.map((person) => (
           <Col
-            xl={{ span: 12 }}
+            xl={{ span: 6 }}
             md={{ span: 12 }}
             xs={{ span: 24 }}
             key={person.name}
@@ -28,7 +28,7 @@ const People = () => {
               name={person.name}
               initialValue={person.min}
             >
-              <Input
+              <InputNumber
                 type='number'
                 className="input-people"
                 size="large"
